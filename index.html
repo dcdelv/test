@@ -604,9 +604,16 @@
 </section>
 
 <p class="verde2">VER MÁS</p> <i class="fas fa-arrow-right flecha"></i>
-
-<img class="img-botellas" src="botellas.jpg">
-<p class="texto-botellas">PRODUCTOS CON <br>PRÓXIMO VENCIMIENTO</p>
+<div class="mainbotellas">
+<img class="img-botellas" src="botellas2.jpg">
+<p class="texto-botellas1">PRODUCTOS CON</p>
+<p class="texto-botellas2">PRÓXIMO VENCIMIENTO</p>
+<img class="lineablanca" src="lineablanca.png">
+<p class="lorem-chico">Lorem ipsum dolor sit amet, consectetuer</p>
+<button type="button" class="btn btn-success boton-botella">VER OFERTA</button>
+<hr class="azul"></hr>
+<p class="precios">PRECIOS POR MAYOR</p>
+</div>
 
 <div class="texto-oferta">
   <div class="row">
@@ -615,19 +622,6 @@
   </div>
   <img class="doslineas" src="./linea3.jpg">
 </div>
-</div>
-
-<nav>
-  <div class="nav nav-tabs" id="nav-tab" role="tablist">
-    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">ABARROTES</a>
-    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">LICORES</a>
-    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">DETERGENTE</a>
-  </div>
-</nav>
-<div class="tab-content" id="nav-tabContent">
-  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
-  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
 </div>
 
 <!--JAVASCRIPT-->
@@ -704,6 +698,12 @@
         }
     });
 });
+</script>
+<script $('#myDropdown').on('show.bs.dropdown', function () {
+  // do something...
+})
+</script>
+$('.dropdown-toggle').dropdown()
 </script>
   </body>
 </html>

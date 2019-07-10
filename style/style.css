@@ -199,10 +199,54 @@ margin-left: 0.3em;
 }
 
 .img-botellas{
-  opacity: 0.5
+  position: absolute;
 }
-.texto-botellas {
-  z-index: 2;
+.texto-botellas1 {
+  position:relative;
+  padding-top: 3.8em;
+  padding-left: 4em;
+}
+
+.texto-botellas2 {
+  margin-top: -0.8em;
+  position:relative;
+  padding-left:2.3em;;
+  font-size: 1.5em;
+  color:white;
+  font-weight: bold;
+}
+
+.lineablanca {
+  position:relative;
+  padding-left: 3em;
+  margin-top: -3.8em;
+}
+.lorem-chico {
+  position: relative;
+  color:white;
+  padding-left: 5.5em;
+  font-size: 0.8em;
+  margin-top: -2.5em;
+}
+.boton-botella {
+  position: relative;
+  width: 50%;
+  margin: 10em 6.6em;
+}
+.azul {
+  position: relative;
+  background-color:#294f94;
+  margin-top: 2.5em;
+  height:1.9em;
+  width:109%;
+  opacity: 0.7;
+}
+.precios{
+  position: relative;
+  color:white;
+  margin-top: -2.5em;
+  padding-left: 6em;
+  font-size: 1.1em;
 }
 /*SLIDER*/
 
