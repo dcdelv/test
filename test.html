@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <style
+    .quantity-btn-color: #95d7fc;
+.product {
+	width: 30%;
+	margin: 30px;
+}
+.form-group {
+	width: 30%;
+	margin: 30px;
+	.glyphicon {
+		color: $quantity-btn-color;
+	}
+}
+    </style>
+    <img class="product" src="https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/IP3VG5E0X8.jpg" alt="food">
+  <div class="form-group">
+      <label>Quantity: </label>
+      <div class="input-group">
+          <div class="input-group-btn">
+              <button id="down" class="btn btn-default" onclick=" down('0')"><span class="glyphicon glyphicon-minus"></span></button>
+          </div>
+          <input type="text" id="myNumber" class="form-control input-number" value="1" />
+          <div class="input-group-btn">
+              <button id="up" class="btn btn-default" onclick="up('10')"><span class="glyphicon glyphicon-plus"></span></button>
+          </div>
+      </div>
+  </div>
+
+  <script type="text/javascript">
+    function up(max) {
+    document.getElementById("myNumber").value = parseInt(document.getElementById("myNumber").value) + 1;
+    if (document.getElementById("myNumber").value >= parseInt(max)) {
+        document.getElementById("myNumber").value = max;
+    }
+}
+function down(min) {
+    document.getElementById("myNumber").value = parseInt(document.getElementById("myNumber").value) - 1;
+    if (document.getElementById("myNumber").value <= parseInt(min)) {
+        document.getElementById("myNumber").value = min;
+    }
+}
+</script>
+
+  </script>
+  </body>
+</html>
