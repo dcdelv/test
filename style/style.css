@@ -251,7 +251,44 @@ margin-left: 0.3em;
   padding-left: 6em;
   font-size: 1.1em;
 }
-/*SLIDER*/
+
+.dropdown {
+  margin-top: 5em;
+}
+
+.abarrotes-tab {
+  width: 100%;
+}
+
+.licores-tab {
+  width:100%;
+}
+
+.flecha2 {
+  color:#1ca04e;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-left: 20em;
+  position: relative;
+}
+
+.texto-cajas1 {
+  position:relative;
+  padding-top: 3.8em;
+  padding-left: 6em;
+  font-size: 1.5em;
+  color:white;
+}
+
+.texto-cajas2 {
+  margin-top: -0.8em;
+  position:relative;
+  padding-left:5em;;
+  font-size: 1.5em;
+  color:white;
+  font-weight: bold;
+}
+  /*SLIDER*/
 
 html, body {
       margin: 0;
