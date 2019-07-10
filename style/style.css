@@ -198,9 +198,13 @@ margin-left: 0.3em;
   margin:1px;
 }
 .mainbotellas {
+  background: url(botellas2.jpg);
+  width: 100%;
+  background-position:center;
+  background-repeat: no-repeat;
+  padding-bottom: 5em;
 }
 .img-botellas{
-  position: absolute;
 }
 .texto-botellas1 {
   position:relative;
