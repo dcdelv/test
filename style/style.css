@@ -200,6 +200,9 @@ margin-left: 0.3em;
 
 .img-botellas{
 }
+.texto-botellas {
+  z-index: 2;
+}
 /*SLIDER*/
 
 html, body {

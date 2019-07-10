@@ -57,7 +57,8 @@
     </div>
     </div>
     </div>
-<section class="regular slider">
+
+<section class="slider single-item">
   <div class="imagen">
     <div class="row">
     <div class="col-12">
@@ -90,6 +91,7 @@
 </div>
 </div>
 </section>
+
 <div class="texto-oferta">
   <div class="row">
   <div class="col-12">
@@ -604,6 +606,7 @@
 <p class="verde2">VER MÁS</p> <i class="fas fa-arrow-right flecha"></i>
 
 <img class="img-botellas" src="botellas.jpg">
+<p class="texto-botellas">PRODUCTOS CON <br>PRÓXIMO VENCIMIENTO</p>
 
 <div class="texto-oferta">
   <div class="row">
@@ -632,6 +635,14 @@
   <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
   <script type="text/javascript">
     $(document).on('ready', function() {
+
+      $('.single-item').slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      });
+
       $(".regular").slick({
         dots: true,
         infinite: true,
