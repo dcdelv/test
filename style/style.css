@@ -202,7 +202,7 @@ margin-left: 0.3em;
   width: 100%;
   background-position:center;
   background-repeat: no-repeat;
-  padding-bottom: 5em;
+padding-bottom: 5em;
 }
 .img-botellas{
 }
@@ -281,7 +281,7 @@ margin-left: 0.3em;
   padding-top: 3.8em;
   padding-left: 6em;
   font-size: 1.5em;
-  color:white;
+  color:red;
 }
 
 .texto-cajas2 {
@@ -289,8 +289,12 @@ margin-left: 0.3em;
   position:relative;
   padding-left:5em;;
   font-size: 1.5em;
-  color:white;
+  color:red;
   font-weight: bold;
+}
+
+.lorem-chico2 {
+  color:red;
 }
   /*SLIDER*/
 
