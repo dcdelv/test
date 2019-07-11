@@ -68,21 +68,32 @@ h3 {
   color:#1ca04e;
   font-size: 1.3em;
   font-weight: bold;
-  margin-bottom:-3.5em;
 }
 .verde2 {
+  width:90%;
   color:#1ca04e;
   font-size: 0.9em;
   font-weight: bold;
+  text-align: right;
+  padding-right:3em;
 }
+
 .flecha {
+  width:95%;
+  text-align: right;
   color:#1ca04e;
   font-size: 0.9em;
   font-weight: bold;
-  margin-left:0.5em;
+  margin-top: -2.3em;
+}
+.fotoproductos {
+  width: 80%;
+  text-align: center;
+  margin-left: 2.5em;
 }
 
 .texto-oferta {
+  width:100%;
   text-align: center;
   color: #294f94;
   font-size: 1.5em;
@@ -90,9 +101,11 @@ h3 {
   margin-top: 2em;
 }
 .doslineas {
-  width:100%;
+  width:75%;
+  margin-left: 2em;
 }
 /*SLIDER*/
+
 .producto {
   font-size: 0.9em;
   border: 1px solid #e8e9ec;
@@ -111,167 +124,177 @@ button {
 
 .nombre {
   color:#1ca04e;
-
+  margin-bottom: -0.3em;
+  margin-top: 0.6em;
+  margin-left: 0.3em;
 }
 
 .detalles {
-  color: #a09ea0;
-  font-size: 0.9em;
-  padding-top: -4em;
+  font-size: 0.8em;
+  margin-top: 0.5em;
+  margin-left: 0.3em;
 }
 
 .stock {
 color:gray;
 font-size: 0.8em;
-font-weight: bold;
+margin-top: -1.3em;
+margin-left: 0.3em;
 }
 
 .sku{
   color:gray;
   font-size: 0.8em;
-  text-transform:uppercase;
-  font-weight: bold;
+  margin-top: -1.3em;
+  margin-left: 0.3em;
 }
 .precio {
   color:red;
   font-size: 0.8em;
-}
-
-.numero {
-  color:red;
-  font-size: 0.8em;
-}
-.botonverde1 {
-  width:100%;
+  margin-top: -1.3em;
+  margin-left: 0.3em;
 }
 .cuadrados {
+  width:100%;
   margin-top: 3em;
 }
 .col1{
   color:white;
   font-weight: bold;
+  padding:3em;
   background-color: #82c2dc;
+  margin:1px;
 }
 
-.icon {
-  height: 60px;
-  width: 60px;
-}
 .col2 {
   color:white;
   font-weight: bold;
-  background-color: #59b2da;
+  padding:3em;
+  background-color: #82c2dc;
+  margin:1px;
 }
 
 .col3 {
   color:white;
   font-weight: bold;
-  background-color: #1b9fd7;
+  padding:3em;
+  background-color: #82c2dc;
+  margin:1px;
 }
 
 .col4 {
   color:white;
   font-weight: bold;
-  background-color: #2773b4;
+  padding:3em;
+  background-color: #82c2dc;
+  margin:1px;
 }
 
 .col5 {
   color:white;
   font-weight: bold;
   padding:2em;
-  background-color: #0c5c91;
+  background-color: #82c2dc;
+  margin:1px;
 }
-
-.icon5 {
-  width:60px;
-  height:50px;
-  margin-top: 2em;
-}
-.botellas {
-  background: url(style/img/botellas2.jpg);
+.mainbotellas {
+  background: url(botellas2.jpg);
   width: 100%;
+  background-position:center;
   background-repeat: no-repeat;
-  padding-bottom: 6em;
+padding-bottom: 5em;
 }
-
+.img-botellas{
+}
 .texto-botellas1 {
+  position:relative;
+  padding-top: 3.8em;
+  padding-left: 4em;
   font-size: 1.5em;
   color:white;
 }
 
 .texto-botellas2 {
+  margin-top: -0.8em;
+  position:relative;
+  padding-left:2.3em;;
   font-size: 1.5em;
   color:white;
   font-weight: bold;
 }
+
+.lineablanca {
+  position:relative;
+  padding-left: 3em;
+  margin-top: -3.8em;
+}
 .lorem-chico {
+  position: relative;
   color:white;
+  padding-left: 5.5em;
   font-size: 0.8em;
+  margin-top: -2.5em;
 }
-
 .boton-botella {
+  position: relative;
+  width: 50%;
+  margin: 10em 6.6em;
 }
-
-.precios{
-  color:white;
-  font-size: 1.1em;
-  background-color:rgba(58,86,140,0.9);
-}
-
-
-#nav-home-tab {
-  border:none;
-  color:black;
-}
-
-#nav-profile-tab {
-  border:none;
-  color:black;
-
-}
-
-#nav-contact-tab {
-  border:none;
-  color:black;
-}
-
-.lista {
-  color:white;
-  background-color:#091a3c;
-  line-height: 3em;
-}
-
-.lista2 {
-  margin-top: 1.5em;
-}
-
-.lista3 {
-  font-weight: bold;
-  font-size: 0.9em;
-}
-
-.icon2 {
-  width:35px;
-  height:35px;
-  margin-right: 10px;
-}
-
-.lista4 {
-  background-color: white;
-}
-
-.follow {
-font-weight: bold;
-}
-
-.redes {
-  padding-top: 3rem;
-}
-
-
-.footer {
+.azul {
+  position: relative;
   background-color:#294f94;
+  margin-top: 2.5em;
+  height:1.9em;
+  width:109%;
+  opacity: 0.7;
+}
+.precios{
+  position: relative;
   color:white;
+  margin-top: -2.5em;
+  padding-left: 6em;
+  font-size: 1.1em;
+}
+
+.dropdown {
+  margin-top: 5em;
+}
+
+.abarrotes-tab {
+  width: 100%;
+}
+
+.licores-tab {
+  width:100%;
+}
+
+.flecha2 {
+  color:#1ca04e;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-left: 20em;
+  position: relative;
+}
+
+.texto-cajas1 {
+  position:relative;
+  padding-top: 3.8em;
+  padding-left: 6em;
+  font-size: 1.5em;
+  color:red;
+}
+
+.texto-cajas2 {
+  margin-top: -0.8em;
+  position:relative;
+  padding-left:5em;;
+  font-size: 1.5em;
+  color:red;
+  font-weight: bold;
+}
+
+.lorem-chico2 {
+  color:red;
 }
   /*SLIDER*/
 
@@ -295,7 +318,6 @@ html, body {
 
     .slick-slide img {
       width: 100%;
-      text-align:center;
     }
 
     .slick-prev:before,
