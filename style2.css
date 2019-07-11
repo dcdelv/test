@@ -1,0 +1,373 @@
+.col-4 {
+margin-top: 1%;
+border: 1px solid gray;
+border-bottom: 3em;
+}
+
+.banner1 {
+  width:140%;
+}
+.logo {
+  width: 170%;
+  margin-right:2em;
+}
+
+.banner3 {
+  width: 140%;
+}
+.container-despacho {
+  font-size: 20px;
+  color: #d5d5d5;
+  font-weight: lighter;
+  width: 100%;
+  text-align: center;
+  margin-top:4em;
+}
+
+.despachotext {
+  color: #d5d5d5;
+  padding-top: 1em;
+  margin-bottom: -0.7em;
+}
+.linea1 {
+  width:100%;
+}
+hr {
+  background-color: #d5d5d5;
+  width:80%;
+  padding: 0.02em;
+}
+
+.oferta {
+  color:#294f94;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+}
+i {
+  letter-spacing: 1.2em;
+}
+h1{
+  color:#db262f;
+  padding-top: -0.4em;
+}
+
+h3 {
+  padding-top: 0.7em;
+}
+.border-oferta {
+  width:50%;
+  background-color: #db262f;
+  padding: 0.05em;
+  margin-top: -0.2em;
+}
+
+.lorem-text {
+  color:#019a3c;
+}
+.verde {
+  color:#1ca04e;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom:-3.5em;
+}
+.verde2 {
+  color:#1ca04e;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-right: 4em;
+}
+.flecha {
+  position: relative;
+  color:#1ca04e;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.texto-oferta {
+  text-align: center;
+  color: #294f94;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 2em;
+}
+.doslineas {
+  width:100%;
+}
+/*SLIDER*/
+
+.enterito {
+  width:90%;
+}
+.producto {
+  font-size: 0.9em;
+  border: 1px solid #e8e9ec;
+  width:100%;
+}
+
+.img-producto{
+  border-bottom: 1px solid #e8e9ec;
+}
+
+button {
+  width:100%;
+  align-items: center;
+  color:#1ca04e;
+}
+
+.nombre {
+  color:#1ca04e;
+  margin-bottom: -0.3em;
+  margin-top: 0.6em;
+  margin-left: 0.3em;
+}
+
+.detalles {
+  font-size: 0.8em;
+  margin-top: 0.5em;
+  margin-left: 0.3em;
+}
+
+.stock {
+color:gray;
+font-size: 0.8em;
+margin-top: -1.3em;
+margin-left: 0.3em;
+}
+
+.sku{
+  color:gray;
+  font-size: 0.8em;
+  margin-top: -1.3em;
+  margin-left: 0.3em;
+}
+.precio {
+  color:red;
+  font-size: 0.8em;
+  margin-top: -1.3em;
+  margin-left: 0.3em;
+}
+.cuadrados {
+  width:100%;
+  margin-top: 3em;
+}
+.col1{
+  color:white;
+  font-weight: bold;
+  padding:3em;
+  background-color: #82c2dc;
+  margin:1px;
+}
+
+.col2 {
+  color:white;
+  font-weight: bold;
+  padding:3em;
+  background-color: #82c2dc;
+  margin:1px;
+}
+
+.col3 {
+  color:white;
+  font-weight: bold;
+  padding:3em;
+  background-color: #82c2dc;
+  margin:1px;
+}
+
+.col4 {
+  color:white;
+  font-weight: bold;
+  padding:3em;
+  background-color: #82c2dc;
+  margin:1px;
+}
+
+.col5 {
+  color:white;
+  font-weight: bold;
+  padding:2em;
+  background-color: #82c2dc;
+  margin:1px;
+}
+.mainbotellas {
+  background: url(botellas2.jpg);
+  width: 100%;
+  background-position:center;
+  background-repeat: no-repeat;
+padding-bottom: 5em;
+}
+.img-botellas{
+}
+.texto-botellas1 {
+  position:relative;
+  padding-top: 3.8em;
+  padding-left: 4em;
+  font-size: 1.5em;
+  color:white;
+}
+
+.texto-botellas2 {
+  margin-top: -0.8em;
+  position:relative;
+  padding-left:2.3em;;
+  font-size: 1.5em;
+  color:white;
+  font-weight: bold;
+}
+
+.lineablanca {
+  position:relative;
+  padding-left: 3em;
+  margin-top: -3.8em;
+}
+.lorem-chico {
+  position: relative;
+  color:white;
+  padding-left: 5.5em;
+  font-size: 0.8em;
+  margin-top: -2.5em;
+}
+.boton-botella {
+  position: relative;
+  width: 50%;
+  margin: 10em 6.6em;
+}
+.azul {
+  position: relative;
+  background-color:#294f94;
+  margin-top: 2.5em;
+  height:1.9em;
+  width:109%;
+  opacity: 0.7;
+}
+.precios{
+  position: relative;
+  color:white;
+  margin-top: -2.5em;
+  padding-left: 6em;
+  font-size: 1.1em;
+}
+
+.dropdown {
+  margin-top: 5em;
+}
+
+.abarrotes-tab {
+  width: 100%;
+}
+
+.licores-tab {
+  width:100%;
+}
+
+.flecha2 {
+  color:#1ca04e;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-left: 20em;
+  position: relative;
+}
+
+.texto-cajas1 {
+  position:relative;
+  padding-top: 3.8em;
+  padding-left: 6em;
+  font-size: 1.5em;
+  color:red;
+}
+
+.texto-cajas2 {
+  margin-top: -0.8em;
+  position:relative;
+  padding-left:5em;;
+  font-size: 1.5em;
+  color:red;
+  font-weight: bold;
+}
+
+.lorem-chico2 {
+  color:red;
+}
+  /*SLIDER*/
+
+html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 100%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 2px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+      text-align:center;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+    }
+
+    .slick-active {
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+  .slick-current {
+    opacity: 1;
+  }
+
+  #myform {
+    padding: 10px;
+    margin-top: -1em;
+}
+.qty {
+  width:100%;
+}
+input.qtyplus {
+  font-size: 1.2em;
+  color: #4875ae;
+}
+
+input.qtyminus {
+font-size: 1.2em;
+color: #4875ae;
+
+}
+
+input.qty {
+  font-size: 1.2em;
+  color: #4875ae;
+
+}
+
+.borde1 {
+  border: 1px solid #e8e9ec;
+}
+.borde2 {
+  border: 1px solid #e8e9ec;
+}
+.borde3 {
+  border: 1px solid #e8e9ec;
+}
+
+.btn-success {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
