@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style2.css">
+    <meta charset="utf-8">
+    <title>La Oferta</title>
+  </head>
+  <body>
+
+    <!--HEADER-->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-4 bar">
+            <div class="row">
+              <div class="col-6">
+                <img src="style/img/bar.jpg" class="img-fluid" id="sidebarCollapse">
+              </div>
+              <div class="col-6">
+                <img src="style/img/lupa.jpg" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="col-4 logo">
+            <img src="style/img/logo-mobile.jpg" class="img-fluid">
+          </div>
+          <div class="col-4 border-carro text-center">
+            <div class="row">
+              <div class="col-">
+                <img src="style/img/user.jpg" class="img-fluid ml-2">
+              </div>
+              <div class="col-6">
+                <img src="style/img/carrito.jpg" class="img-fluid ml-2 mt-1.2">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--DESPACHO-->
+        <div class="container despacho text-center">
+          <div class="row">
+            <div class="col-12 p-0">
+              <p class="despachotext"><i class="fas fa-truck"></i>SIGUE TU DESPACHO</p>
+              <hr>
+            </div>
+          </div>
+        </div>
+
+        <!--ICONO ABARROTES-->
+        <div class="container text-center icon-abarrotes">
+          <div class="row">
+            <img class="abarrotes" src="style/img/abarrotes-big.jpg">
+            </div>
+          </div>
+
+<!--BREADCRUMB-->
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Abarrotes</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Arroz</li>
+  </ol>
+</nav>
+
+<!--DROPDOWN-->
+<div class="dropdown text-center">
+  <button class="btn btn-secondary dropdown-toggle boton-filtrar" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <img class="levels" src="style/img/levels.jpg">FILTRAR PRODUCTO<img class="flecha-abajo"src="style/img/flechaabajo.jpg">
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <a class="dropdown-item" href="#!">Action</a>
+    <a class="dropdown-item" href="#!">Another action</a>
+  </div>
+</div>
+
+<!--SEARCH BAR-->
+<div class="wrap">
+  <div class="container text-center">
+    <input type="text" class="searchTerm" placeholder="BUSCAR EN ESTA CATEGORIA">
+  </div>
+</div>
+
+<div class="container">
+  <p class="arroz">Arroz</p>
+  <img class="linea-azul" src="style/img/lineaazul.jpg">
+</div>
+
+<!--PRIMER CARRUSEL-->
+<!--
+<div class="container">
+  <section class="regular slider">
+    <div class="producto">
+      <div class="row">
+        <div class="col-12"><img class="img-producto" src="style/img/aruba.jpg"></div>
+        <div class="col-12 pt-3"><h6 class="nombre">Arroz Aruba</h6></div>
+        <div class="col-12 detalles">Grano Largo y Ancho 1kg.</div>
+        <div class="col-12 stock">Stock: 20 cajas.</div>
+        <div class="col-12 sku">SKU:xxxxx</div>
+        <div class="col-12 precio">Precio por cajas de 10 ud.</div>
+        <div class="col-12 numero pb-3">$00000</div>
+      </div>
+      <div class="container counter text-center">
+        <form id='myform' method='POST' action='#'>
+          <div class="row">
+            <div class="col-4 borde1">
+              <input type='button' value='-' class='qtyminus' field='quantity' />
+            </div>
+            <div class="col-4 borde2">
+              <input type='text' name='quantity' value='0' class='qty' />
+            </div>
+            <div class="col-4 borde3">
+              <input type='button' value='+' class='qtyplus' field='quantity' />
+            </div>
+          </div>
+        </form>
+        <a class="btn btn-success botonverde1">AGREGAR</a>
+      </div>
+    </div>
+
+    <div class="producto">
+      <div class="row">
+        <div class="col-12"><img class="img-producto" src="style/img/aruba.jpg"></div>
+        <div class="col-12 pt-3"><h6 class="nombre">Arroz Aruba</h6></div>
+        <div class="col-12 detalles">Grano Largo y Ancho 1kg.</div>
+        <div class="col-12 stock">Stock: 20 cajas.</div>
+        <div class="col-12 sku">SKU:xxxxx</div>
+        <div class="col-12 precio">Precio por cajas de 10 ud.</div>
+        <div class="col-12 numero pb-3">$00000</div>
+      </div>
+      <div class="container counter text-center">
+        <form id='myform' method='POST' action='#'>
+          <div class="row">
+            <div class="col-4 borde1">
+              <input type='button' value='-' class='qtyminus' field='quantity' />
+            </div>
+            <div class="col-4 borde2">
+              <input type='text' name='quantity' value='0' class='qty' />
+            </div>
+            <div class="col-4 borde3">
+              <input type='button' value='+' class='qtyplus' field='quantity' />
+            </div>
+          </div>
+        </form>
+        <a class="btn btn-success botonverde1">AGREGAR</a>
+      </div>
+    </div>
+
+    <div class="producto">
+      <div class="row">
+        <div class="col-12"><img class="img-producto" src="style/img/aruba.jpg"></div>
+        <div class="col-12 pt-3"><h6 class="nombre">Arroz Aruba</h6></div>
+        <div class="col-12 detalles">Grano Largo y Ancho 1kg.</div>
+        <div class="col-12 stock">Stock: 20 cajas.</div>
+        <div class="col-12 sku">SKU:xxxxx</div>
+        <div class="col-12 precio">Precio por cajas de 10 ud.</div>
+        <div class="col-12 numero pb-3">$00000</div>
+      </div>
+      <div class="container counter text-center">
+        <form id='myform' method='POST' action='#'>
+          <div class="row">
+            <div class="col-4 borde1">
+              <input type='button' value='-' class='qtyminus' field='quantity' />
+            </div>
+            <div class="col-4 borde2">
+              <input type='text' name='quantity' value='0' class='qty' />
+            </div>
+            <div class="col-4 borde3">
+              <input type='button' value='+' class='qtyplus' field='quantity' />
+            </div>
+          </div>
+        </form>
+        <a class="btn btn-success botonverde1">AGREGAR</a>
+      </div>
+    </div>
+
+    <div class="producto">
+      <div class="row">
+        <div class="col-12"><img class="img-producto" src="style/img/aruba.jpg"></div>
+        <div class="col-12 pt-3"><h6 class="nombre">Arroz Aruba</h6></div>
+        <div class="col-12 detalles">Grano Largo y Ancho 1kg.</div>
+        <div class="col-12 stock">Stock: 20 cajas.</div>
+        <div class="col-12 sku">SKU:xxxxx</div>
+        <div class="col-12 precio">Precio por cajas de 10 ud.</div>
+        <div class="col-12 numero pb-3">$00000</div>
+      </div>
+      <div class="container counter text-center">
+        <form id='myform' method='POST' action='#'>
+          <div class="row">
+            <div class="col-4 borde1">
+              <input type='button' value='-' class='qtyminus' field='quantity' />
+            </div>
+            <div class="col-4 borde2">
+              <input type='text' name='quantity' value='0' class='qty' />
+            </div>
+            <div class="col-4 borde3">
+              <input type='button' value='+' class='qtyplus' field='quantity' />
+            </div>
+          </div>
+        </form>
+        <a class="btn btn-success botonverde1">AGREGAR</a>
+      </div>
+    </div>
+    </section>
+-->
+    <div class="container text-right">
+      <p class="verde2">VER MÁS<i class="fas fa-arrow-right flecha"></i></p>
+    </div>
+
+    <div class="container">
+      <p class="arroz">Arroz Graneado</p>
+      <img class="linea-azul" src="style/img/lineaazul.jpg">
+    </div>
+
+<!--SEGUNDO CARRUSEL-->
+<!--
+<div class="container">
+  <section class="regular slider">
+    <div class="producto">
+      <div class="row">
+        <div class="col-12"><img class="img-producto" src="style/img/aruba.jpg"></div>
+        <div class="col-12 pt-3"><h6 class="nombre">Arroz Aruba</h6></div>
+        <div class="col-12 detalles">Grano Largo y Ancho 1kg.</div>
+        <div class="col-12 stock">Stock: 20 cajas.</div>
+        <div class="col-12 sku">SKU:xxxxx</div>
+        <div class="col-12 precio">Precio por cajas de 10 ud.</div>
+        <div class="col-12 numero pb-3">$00000</div>
+      </div>
+      <div class="container counter text-center">
+        <form id='myform' method='POST' action='#'>
+          <div class="row">
+            <div class="col-4 borde1">
+              <input type='button' value='-' class='qtyminus' field='quantity' />
+            </div>
+            <div class="col-4 borde2">
+              <input type='text' name='quantity' value='0' class='qty' />
+            </div>
+            <div class="col-4 borde3">
+              <input type='button' value='+' class='qtyplus' field='quantity' />
+            </div>
+          </div>
+        </form>
+        <a class="btn btn-success botonverde1">AGREGAR</a>
+      </div>
+    </div>
+
+    <div class="producto">
+      <div class="row">
+        <div class="col-12"><img class="img-producto" src="style/img/aruba.jpg"></div>
+        <div class="col-12 pt-3"><h6 class="nombre">Arroz Aruba</h6></div>
+        <div class="col-12 detalles">Grano Largo y Ancho 1kg.</div>
+        <div class="col-12 stock">Stock: 20 cajas.</div>
+        <div class="col-12 sku">SKU:xxxxx</div>
+        <div class="col-12 precio">Precio por cajas de 10 ud.</div>
+        <div class="col-12 numero pb-3">$00000</div>
+      </div>
+      <div class="container counter text-center">
+        <form id='myform' method='POST' action='#'>
+          <div class="row">
+            <div class="col-4 borde1">
+              <input type='button' value='-' class='qtyminus' field='quantity' />
+            </div>
+            <div class="col-4 borde2">
+              <input type='text' name='quantity' value='0' class='qty' />
+            </div>
+            <div class="col-4 borde3">
+              <input type='button' value='+' class='qtyplus' field='quantity' />
+            </div>
+          </div>
+        </form>
+        <a class="btn btn-success botonverde1">AGREGAR</a>
+      </div>
+    </div>
+
+    <div class="producto">
+      <div class="row">
+        <div class="col-12"><img class="img-producto" src="style/img/aruba.jpg"></div>
+        <div class="col-12 pt-3"><h6 class="nombre">Arroz Aruba</h6></div>
+        <div class="col-12 detalles">Grano Largo y Ancho 1kg.</div>
+        <div class="col-12 stock">Stock: 20 cajas.</div>
+        <div class="col-12 sku">SKU:xxxxx</div>
+        <div class="col-12 precio">Precio por cajas de 10 ud.</div>
+        <div class="col-12 numero pb-3">$00000</div>
+      </div>
+      <div class="container counter text-center">
+        <form id='myform' method='POST' action='#'>
+          <div class="row">
+            <div class="col-4 borde1">
+              <input type='button' value='-' class='qtyminus' field='quantity' />
+            </div>
+            <div class="col-4 borde2">
+              <input type='text' name='quantity' value='0' class='qty' />
+            </div>
+            <div class="col-4 borde3">
+              <input type='button' value='+' class='qtyplus' field='quantity' />
+            </div>
+          </div>
+        </form>
+        <a class="btn btn-success botonverde1">AGREGAR</a>
+      </div>
+    </div>
+
+    <div class="producto">
+      <div class="row">
+        <div class="col-12"><img class="img-producto" src="style/img/aruba.jpg"></div>
+        <div class="col-12 pt-3"><h6 class="nombre">Arroz Aruba</h6></div>
+        <div class="col-12 detalles">Grano Largo y Ancho 1kg.</div>
+        <div class="col-12 stock">Stock: 20 cajas.</div>
+        <div class="col-12 sku">SKU:xxxxx</div>
+        <div class="col-12 precio">Precio por cajas de 10 ud.</div>
+        <div class="col-12 numero pb-3">$00000</div>
+      </div>
+      <div class="container counter text-center">
+        <form id='myform' method='POST' action='#'>
+          <div class="row">
+            <div class="col-4 borde1">
+              <input type='button' value='-' class='qtyminus' field='quantity' />
+            </div>
+            <div class="col-4 borde2">
+              <input type='text' name='quantity' value='0' class='qty' />
+            </div>
+            <div class="col-4 borde3">
+              <input type='button' value='+' class='qtyplus' field='quantity' />
+            </div>
+          </div>
+        </form>
+        <a class="btn btn-success botonverde1">AGREGAR</a>
+      </div>
+    </div>
+    </section>
+-->
+
+    <div class="container">
+      <p class="verde2">VER MÁS<i class="fas fa-arrow-right flecha"></i></p>
+    </div>
+
+    <div class="container text-center">
+      <p class="arroz">Arroz Pregraneado</p>
+      <img class="linea-azul" src="style/img/lineaazul.jpg">
+    </div>
+
+<!--TERCER CARRUSEL-->
+<!--
+<div class="container">
+  <section class="regular slider">
+    <div class="producto">
+      <div class="row">
+        <div class="col-12"><img class="img-producto" src="style/img/aruba.jpg"></div>
+        <div class="col-12 pt-3"><h6 class="nombre">Arroz Aruba</h6></div>
+        <div class="col-12 detalles">Grano Largo y Ancho 1kg.</div>
+        <div class="col-12 stock">Stock: 20 cajas.</div>
+        <div class="col-12 sku">SKU:xxxxx</div>
+        <div class="col-12 precio">Precio por cajas de 10 ud.</div>
+        <div class="col-12 numero pb-3">$00000</div>
+      </div>
+      <div class="container counter text-center">
+        <form id='myform' method='POST' action='#'>
+          <div class="row">
+            <div class="col-4 borde1">
+              <input type='button' value='-' class='qtyminus' field='quantity' />
+            </div>
+            <div class="col-4 borde2">
+              <input type='text' name='quantity' value='0' class='qty' />
+            </div>
+            <div class="col-4 borde3">
+              <input type='button' value='+' class='qtyplus' field='quantity' />
+            </div>
+          </div>
+        </form>
+        <a class="btn btn-success botonverde1">AGREGAR</a>
+      </div>
+    </div>
+
+    <div class="producto">
+      <div class="row">
+        <div class="col-12"><img class="img-producto" src="style/img/aruba.jpg"></div>
+        <div class="col-12 pt-3"><h6 class="nombre">Arroz Aruba</h6></div>
+        <div class="col-12 detalles">Grano Largo y Ancho 1kg.</div>
+        <div class="col-12 stock">Stock: 20 cajas.</div>
+        <div class="col-12 sku">SKU:xxxxx</div>
+        <div class="col-12 precio">Precio por cajas de 10 ud.</div>
+        <div class="col-12 numero pb-3">$00000</div>
+      </div>
+      <div class="container counter text-center">
+        <form id='myform' method='POST' action='#'>
+          <div class="row">
+            <div class="col-4 borde1">
+              <input type='button' value='-' class='qtyminus' field='quantity' />
+            </div>
+            <div class="col-4 borde2">
+              <input type='text' name='quantity' value='0' class='qty' />
+            </div>
+            <div class="col-4 borde3">
+              <input type='button' value='+' class='qtyplus' field='quantity' />
+            </div>
+          </div>
+        </form>
+        <a class="btn btn-success botonverde1">AGREGAR</a>
+      </div>
+    </div>
+
+    <div class="producto">
+      <div class="row">
+        <div class="col-12"><img class="img-producto" src="style/img/aruba.jpg"></div>
+        <div class="col-12 pt-3"><h6 class="nombre">Arroz Aruba</h6></div>
+        <div class="col-12 detalles">Grano Largo y Ancho 1kg.</div>
+        <div class="col-12 stock">Stock: 20 cajas.</div>
+        <div class="col-12 sku">SKU:xxxxx</div>
+        <div class="col-12 precio">Precio por cajas de 10 ud.</div>
+        <div class="col-12 numero pb-3">$00000</div>
+      </div>
+      <div class="container counter text-center">
+        <form id='myform' method='POST' action='#'>
+          <div class="row">
+            <div class="col-4 borde1">
+              <input type='button' value='-' class='qtyminus' field='quantity' />
+            </div>
+            <div class="col-4 borde2">
+              <input type='text' name='quantity' value='0' class='qty' />
+            </div>
+            <div class="col-4 borde3">
+              <input type='button' value='+' class='qtyplus' field='quantity' />
+            </div>
+          </div>
+        </form>
+        <a class="btn btn-success botonverde1">AGREGAR</a>
+      </div>
+    </div>
+
+    <div class="producto">
+      <div class="row">
+        <div class="col-12"><img class="img-producto" src="style/img/aruba.jpg"></div>
+        <div class="col-12 pt-3"><h6 class="nombre">Arroz Aruba</h6></div>
+        <div class="col-12 detalles">Grano Largo y Ancho 1kg.</div>
+        <div class="col-12 stock">Stock: 20 cajas.</div>
+        <div class="col-12 sku">SKU:xxxxx</div>
+        <div class="col-12 precio">Precio por cajas de 10 ud.</div>
+        <div class="col-12 numero pb-3">$00000</div>
+      </div>
+      <div class="container counter text-center">
+        <form id='myform' method='POST' action='#'>
+          <div class="row">
+            <div class="col-4 borde1">
+              <input type='button' value='-' class='qtyminus' field='quantity' />
+            </div>
+            <div class="col-4 borde2">
+              <input type='text' name='quantity' value='0' class='qty' />
+            </div>
+            <div class="col-4 borde3">
+              <input type='button' value='+' class='qtyplus' field='quantity' />
+            </div>
+          </div>
+        </form>
+        <a class="btn btn-success botonverde1">AGREGAR</a>
+      </div>
+    </div>
+    </section>
+    -->
+    <div class="container text-right">
+      <p class="verde2">VER MÁS<i class="fas fa-arrow-right flecha"></i></p>
+    </div>
+
+<!--PRODUCTOS RECOMENDADOS-->
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col-12">
+<p class="precomendados">PRODUCTOS RECOMENDADOS</p>
+    </div>
+  </div>
+</div>
+    <!--FOOTER-->
+      <div class="container pt-5 px-5 lista">
+        <div class="row">
+          <ul class="list-unstyled lista1">
+            <li><div class="col-12">ABARROTES</div></li>
+            <li><div class="col-12">BEBESTIBLES</div></li>
+            <li><div class="col-12">NO COMESTIBLES</div></li>
+            <li><div class="col-12">PERECIBLES</div></li>
+          </ul>
+
+          <ul class="list-unstyled lista2">
+            <li><div class="col-12">SUCURSALES</div></li>
+            <li><div class="col-12">¿CÓMO SE COMPRA?</div></li>
+            <li><div class="col-12">MÉTODO DE PAGO</div></li>
+            <li><div class="col-12">TÉRMINOS Y CONDICIONES</div></li>
+          </ul>
+
+          <ul class="list-unstyled lista3">
+            <li><div class="col-12">CONTACTO</div></li>
+          </ul>
+
+          <ul class="list-unstyled lista4">
+            <li><div class="col-12"><img class="icon2" src="style/img/telefono.jpg">TEL +569 00000 / +569 00000</div></li>
+            <li><div class="col-12"><img class="icon2" src="style/img/correo.jpg">EMAIL ventas@cpb.cl</div></li>
+          </div>
+        </div>
+
+        <div class="container pb-5  px-0 lista5">
+          <div class="row">
+            <ul class="list-unstyled follow">
+            <div class="col-12 pt-4">SÍGUENOS</div>
+            </ul>
+
+            <div class="d-flex justify-content-start redes">
+              <div class="col-3"><img src="style/img/twitter.jpg"></div>
+              <div class="col-3"><img src="style/img/instagram.jpg"></div>
+              <div class="col-3"><img src="style/img/facebook.jpg"></div>
+            </div>
+          </div>
+
+          <div class="container mt-3 pt-3 pb-2 w-100 text-center footer">
+            <div class="row">
+              <div class="col-12 text-center">La Oferta © 2019</div>
+              <div class="col-12 text-center">Privacy Policy / Desarrollado por Lámpara</div>
+            </div>
+          </div>
+
+    <!--JAVASCRIPT-->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+  $(document).on('ready', function() {
+
+    $('.single-item').slick({
+      dots: true,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+
+    $(".regular").slick({
+      dots: true,
+      infinite: true,
+      slidesToShow: 2,
+      slidesToScroll: 2
+    });
+    $(".center").slick({
+      dots: true,
+      infinite: true,
+      centerMode: true,
+      slidesToShow: 5,
+      slidesToScroll: 3
+    });
+    $(".variable").slick({
+      dots: true,
+      infinite: true,
+      variableWidth: true
+    });
+    $(".lazy").slick({
+      lazyLoad: 'ondemand', // ondemand progressive anticipated
+      infinite: true
+    });
+  });
+  </script>
+  <script>
+  jQuery(document).ready(function(){
+    // This button will increment the value
+    $('.qtyplus').click(function(e){
+      // Stop acting like a button
+      e.preventDefault();
+      // Get the field name
+      fieldName = $(this).attr('field');
+      // Get its current value
+      var currentVal = parseInt($('input[name='+fieldName+']').val());
+      // If is not undefined
+      if (!isNaN(currentVal)) {
+        // Increment
+        $('input[name='+fieldName+']').val(currentVal + 1);
+      } else {
+        // Otherwise put a 0 there
+        $('input[name='+fieldName+']').val(0);
+      }
+    });
+    // This button will decrement the value till 0
+    $(".qtyminus").click(function(e) {
+      // Stop acting like a button
+      e.preventDefault();
+      // Get the field name
+      fieldName = $(this).attr('field');
+      // Get its current value
+      var currentVal = parseInt($('input[name='+fieldName+']').val());
+      // If it isn't undefined or its greater than 0
+      if (!isNaN(currentVal) && currentVal > 0) {
+        // Decrement one
+        $('input[name='+fieldName+']').val(currentVal - 1);
+      } else {
+        // Otherwise put a 0 there
+        $('input[name='+fieldName+']').val(0);
+      }
+    });
+  });
+  </script>
+  <script>
+  $('#myDropdown').on('show.bs.dropdown', function () {
+  })
+  </script>
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("Demo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  </script>
+
+  </body>
+</html>

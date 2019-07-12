@@ -81,7 +81,7 @@ h3 {
   color:#1ca04e;
   font-size: 1.3em;
   font-weight: bold;
-  margin-bottom:-3.5em;
+  margin-bottom:3.5em;
 }
 .verde2 {
   color:#1ca04e;
@@ -100,7 +100,7 @@ h3 {
   color: #294f94;
   font-size: 1.5em;
   font-weight: bold;
-  margin-top: -2em;
+  margin-top: 2em;
 }
 .doslineas {
   width:100%;
@@ -203,7 +203,7 @@ font-weight: bold;
   background: url(style/img/botellas2.jpg);
   width: 100%;
   background-repeat: no-repeat;
-  padding-bottom: 6em;
+  padding-bottom: 5.9em;
 }
 
 .texto-botellas1 {
@@ -258,13 +258,16 @@ font-weight: bold;
   color:black;
 }
 
+/*FOOTER*/
+
 .lista {
   color:white;
   background-color:#091a3c;
   line-height: 3em;
+  margin-top: -5em;
 }
  ul.lista1 li {
-   border-bottom: 1px solid red;
+   border-bottom: 1px solid #3A4863 ;
    padding-bottom: 1em;
    padding-top: 1em;
    width:20em;
@@ -275,7 +278,7 @@ font-weight: bold;
  }
 
 ul.lista2 li {
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #3A4863;
   padding-bottom: 1em;
   padding-top: 1em;
   width:20em;
@@ -288,13 +291,13 @@ ul.lista2 li:last-child {
 ul.lista3 li  {
   font-weight: bold;
   font-size: 0.9em;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #3A4863;
   width:22em;
 }
 
 ul.follow {
   font-weight: bold;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #ced1d8;
     padding-bottom: 1em;
     margin-left: 2em;
     width: 20em;
@@ -314,7 +317,7 @@ font-weight: bold;
 }
 
 .redes {
-  padding-top: 3rem;
+  margin: 1em;
 }
 
 
@@ -322,6 +325,7 @@ font-weight: bold;
   background-color:#294f94;
   color:white;
 }
+
   /*SLIDER*/
 
 html, body {
@@ -400,8 +404,76 @@ input.qty {
 .borde3 {
   border: 1px solid #e8e9ec;
 }
-
 .btn-success {
   margin-bottom: 1em;
   margin-top: 1em;
+}
+
+
+
+
+/*PAGINA ABARROTES*/
+.abarrotes {
+  width:100%;
+}
+
+ol.breadcrumb {
+  background-color: white;
+  font-size: 0.7em;
+}
+
+li.breadcrumb-item a {
+  color:#2a50aa;
+}
+
+li.breadcrumb-item.active {
+  color:#de2630;
+}
+
+.boton-filtrar {
+  margin-top: -1.5em;
+  width:100%;
+  background-color: #294f96;
+  color:#d4dbe9;
+}
+.levels {
+  width:30px;
+  height:30px;
+  margin-right: 5em;
+}
+
+.flecha-abajo {
+  position: relative;
+  width:30px;
+  height:30px;
+  margin-left: 3em;
+}
+.searchTerm {
+  margin-top: 2em;
+  font-size: 0.8em;
+  border: 1px solid gray;
+  width:100%;
+  opacity: 0.5;
+}
+
+.wrap{
+  width: 80%;
+}
+
+.arroz {
+  font-size: 1.5em;
+  color:#294f96;
+  margin-top: 1.5em;
+}
+.linea-azul {
+  width:100%;
+  margin-top:-3em;
+}
+
+.precomendados {
+  color:white;
+  background-color: #294f96;
+  position:relative;
+  margin-right: 0;
+  margin-left:0;
 }
