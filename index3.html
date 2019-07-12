@@ -15,26 +15,26 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-4">
+      <div class="col-4 bar">
         <div class="row">
-          <div class="col-6 px-0">
+          <div class="col-6">
             <img src="style/img/bar.jpg" class="img-fluid" id="sidebarCollapse">
           </div>
-          <div class="col-6 px-0">
+          <div class="col-6">
             <img src="style/img/lupa.jpg" class="img-fluid">
           </div>
         </div>
       </div>
-      <div class="col-4 px-0">
-        <img src="style/img/logo-mobile.jpg" class="img-fluid ">
+      <div class="col-4 logo">
+        <img src="style/img/logo-mobile.jpg" class="img-fluid">
       </div>
-      <div class="col-4">
+      <div class="col-4 border-carro text-center">
         <div class="row">
-          <div class="col-6 px-0">
-            <img src="style/img/user.jpg" class="img-fluid">
+          <div class="col-">
+            <img src="style/img/user.jpg" class="img-fluid ml-2">
           </div>
-          <div class="col-6 px-0">
-            <img src="style/img/carrito.jpg" class="img-fluid">
+          <div class="col-6">
+            <img src="style/img/carrito.jpg" class="img-fluid ml-2 mt-1.2">
           </div>
         </div>
       </div>
@@ -46,10 +46,14 @@
       <div class="col-12 p-0">
         <p class="despachotext"><i class="fas fa-truck"></i>SIGUE TU DESPACHO</p>
         <hr>
-
       </div>
     </div>
   </div>
+
+  <div class="container w-100">
+    <img class="linea1" src="style/img/linea1.jpg">
+    </div>
+
 
   <div class="container oferta text-center">
     <div class="row">
@@ -266,7 +270,7 @@
       <div class="w-100"></div>
       <div class="col-6 col3"><img class="icon" src="style/img/icon3.jpg">PRODUCTOS RECOMENDADOS PARA PANADERÍAS</div>
       <div class="col-6 col4"><img class="icon" src="style/img/icon4.jpg">PRODUCTOS RECOMENDADOS PARA BOTILLERÍAS</div>
-      <div class="col-12 col5"><img class="icon5" src="style/img/icon5.jpg">PRODUCTOS RECOMENDADOS PARA COMERCIANTES</div>
+      <div class="col-12 col5 d-flex justify-content-around"><img class="icon5" src="style/img/icon5.jpg">PRODUCTOS RECOMENDADOS PARA COMERCIANTES</div>
     </div>
   </div>
 
@@ -433,7 +437,38 @@
     </nav>
     <div class="tab-content" id="nav-tabContent">
       <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-        <p>Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.</p>
+        <div class="container">
+          <section class="regular slider">
+            <div class="producto">
+              <div class="row">
+                <div class="col-12"><img class="img-producto" src="style/img/aruba.jpg"></div>
+                <div class="col-12 pt-3"><h6 class="nombre">Arroz Aruba</h6></div>
+                <div class="col-12 detalles">Grano Largo y Ancho 1kg.</div>
+                <div class="col-12 stock">Stock: 20 cajas.</div>
+                <div class="col-12 sku">SKU:xxxxx</div>
+                <div class="col-12 precio">Precio por cajas de 10 ud.</div>
+                <div class="col-12 numero pb-3">$00000</div>
+              </div>
+              <!--counter-->
+              <div class="container counter text-center">
+                <form id='myform' method='POST' action='#'>
+                  <div class="row">
+                    <div class="col-4 borde1">
+                      <input type='button' value='-' class='qtyminus' field='quantity' />
+                    </div>
+                    <div class="col-4 borde2">
+                      <input type='text' name='quantity' value='0' class='qty' />
+                    </div>
+                    <div class="col-4 borde3">
+                      <input type='button' value='+' class='qtyplus' field='quantity' />
+                    </div>
+                  </div>
+                </form>
+                <a class="btn btn-success botonverde1">AGREGAR</a>
+              </div>
+            </div>
+            </section>
+          </div>
       </div>
       <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
         <p>Nulla est ullamco ut irure incididunt nulla Lorem Lorem minim irure officia enim reprehenderit. Magna duis labore cillum sint adipisicing exercitation ipsum. Nostrud ut anim non exercitation velit laboris fugiat cupidatat. Commodo esse dolore fugiat sint velit ullamco magna consequat voluptate minim amet aliquip ipsum aute laboris nisi. Labore labore veniam irure irure ipsum pariatur mollit magna in cupidatat dolore magna irure esse tempor ad mollit. Dolore commodo nulla minim amet ipsum officia consectetur amet ullamco voluptate nisi commodo ea sit eu.</p>
@@ -455,7 +490,7 @@
 
   <div class="container pt-5 px-5 lista">
     <div class="row">
-      <ul class="list-unstyled">
+      <ul class="list-unstyled lista1">
         <li><div class="col-12">ABARROTES</div></li>
         <li><div class="col-12">BEBESTIBLES</div></li>
         <li><div class="col-12">NO COMESTIBLES</div></li>
@@ -473,15 +508,15 @@
         <li><div class="col-12">CONTACTO</div></li>
       </ul>
 
-      <ul class="list-unstyled lista3">
+      <ul class="list-unstyled lista4">
         <li><div class="col-12"><img class="icon2" src="style/img/telefono.jpg">TEL +569 00000 / +569 00000</div></li>
         <li><div class="col-12"><img class="icon2" src="style/img/correo.jpg">EMAIL ventas@cpb.cl</div></li>
       </div>
     </div>
 
-    <div class="container pb-5 lista4">
+    <div class="container pb-5 lista5">
       <div class="row">
-        <ul class="list-unstyled">
+        <ul class="list-unstyled follow">
         <div class="col-12 pt-4">SÍGUENOS</div>
         </ul>
 
@@ -492,7 +527,7 @@
         </div>
       </div>
 
-      <div class="container mt-3 pt-3 pb-2 text-center footer">
+      <div class="container mt-3 pt-3 pb-2 w-100 text-center footer">
         <div class="row">
           <div class="col-12 text-center">La Oferta © 2019</div>
           <div class="col-12 text-center">Privacy Policy / Desarrollado por Lámpara</div>

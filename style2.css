@@ -8,13 +8,26 @@ border-bottom: 3em;
   width:140%;
 }
 .logo {
-  width: 170%;
-  margin-right:2em;
+  width: 100%;
+  border-bottom: 1px solid black;
+  border-top: none;
 }
 
 .banner3 {
   width: 140%;
 }
+
+.border-carro {
+  border-right: none;
+  border-top:none;
+  border-bottom: 1px solid black;
+}
+.bar {
+  border-top: none;
+  border-bottom: 1px solid black;
+  border-left: none;
+}
+
 .container-despacho {
   font-size: 20px;
   color: #d5d5d5;
@@ -87,7 +100,7 @@ h3 {
   color: #294f94;
   font-size: 1.5em;
   font-weight: bold;
-  margin-top: 2em;
+  margin-top: -2em;
 }
 .doslineas {
   width:100%;
@@ -183,9 +196,8 @@ font-weight: bold;
 }
 
 .icon5 {
-  width:60px;
-  height:50px;
-  margin-top: 2em;
+  width:50px;
+  height:40px;
 }
 .botellas {
   background: url(style/img/botellas2.jpg);
@@ -195,26 +207,37 @@ font-weight: bold;
 }
 
 .texto-botellas1 {
+  padding-top: 4em;
   font-size: 1.5em;
   color:white;
 }
 
 .texto-botellas2 {
+  margin-top:-0.5em;
   font-size: 1.5em;
   color:white;
   font-weight: bold;
 }
+
+.lineablanca {
+  margin-top: -3.3em;
+}
 .lorem-chico {
+  margin-top: -2.5em;
   color:white;
   font-size: 0.8em;
 }
 
 .boton-botella {
+  color:white;
+  width:50%;
 }
 
 .precios{
+  text-align: center;
+  margin-top: 1.3em;
+  font-size: 1.4em;
   color:white;
-  font-size: 1.1em;
   background-color:rgba(58,86,140,0.9);
 }
 
@@ -240,16 +263,42 @@ font-weight: bold;
   background-color:#091a3c;
   line-height: 3em;
 }
+ ul.lista1 li {
+   border-bottom: 1px solid red;
+   padding-bottom: 1em;
+   padding-top: 1em;
+   width:20em;
+ }
 
-.lista2 {
-  margin-top: 1.5em;
+ ul.lista1 li:last-child {
+   border-bottom:none;
+ }
+
+ul.lista2 li {
+  border-bottom: 1px solid red;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  width:20em;
 }
 
-.lista3 {
+ul.lista2 li:last-child {
+  border-bottom:none;
+}
+
+ul.lista3 li  {
   font-weight: bold;
   font-size: 0.9em;
+  border-bottom: 1px solid red;
+  width:22em;
 }
 
+ul.follow {
+  font-weight: bold;
+    border-bottom: 1px solid red;
+    padding-bottom: 1em;
+    margin-left: 2em;
+    width: 20em;
+}
 .icon2 {
   width:35px;
   height:35px;
@@ -257,7 +306,7 @@ font-weight: bold;
 }
 
 .lista4 {
-  background-color: white;
+  background-color: #091a3c;
 }
 
 .follow {
